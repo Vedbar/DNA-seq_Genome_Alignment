@@ -24,8 +24,7 @@ This repository provides a step-by-step guide for genome alignment using breast 
     - [11.5 Mark Duplicates](#11-5-mark-duplicates)
     - [11.6 Recalibrate Base Quality Scores](#11-6-recalibrate-base-quality-scores)
     - [11.7 Index BAM File](11-7-index-bam-file)
-
-12. [Useful Links](#12-useful-links)
+13. [Useful Links](#12-useful-links)
 
 ---
 

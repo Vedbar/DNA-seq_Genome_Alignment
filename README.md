@@ -32,14 +32,13 @@ This repository provides a step-by-step guide for genome alignment using breast 
 ## 1. Server Information
 
 ### Prerequisites
-- **Tools:** Install  [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [FileZilla](https://filezilla-project.org/download.php), [Bandage](http://rrwick.github.io/Bandage/), [Mauve](https://darlinglab.org/mauve/mauve.html).  
+- **Tools:** Install  [PuTTY](https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html), [FileZilla](https://filezilla-project.org/download.php), [IGV](https://igv.org/doc/desktop/)  
 - **Server Details:**  
   - **IP Address:** `168.105.161.70`  
   - **Port:** `22`  
   - **Access:** Requires JABSOM or UH network (use VPN for remote access).
   - Note: With PuTTY and FileZilla you can connect to server.
  
-    ![PuTTY](putty_image.PNG "PuTTY") ![FileZilla](FileZilla.png "FileZilla")
 
 ### Security Practices
 - Avoid multiple failed login attempts to prevent account locking.  

@@ -244,9 +244,11 @@ samtools index SRR097848_FINAL.bam
 
 ## 10. Visualization using IGV  
 
-Load indexed BAM files in genome browsers IGV: IGV Software
+Load indexed BAM files in genome browsers IGV: [IGV Software](https://igv.org/doc/desktop/)  
  ![IGV](IGV.png "IGV")
-
+ 
+ ![IGV Browser](IGV_pic.png "IGV Browser")
+ 
 ---
 
 ## 11. Exercise
@@ -321,7 +323,7 @@ samtools index SRR097849_FINAL.bam
 - Example Coordinates:
   - chr1:125,175,342-125,184,719
   - chr11:47,599,786-47,599,865
-
+ ![IGV Browser](IGV_2.PNG "IGV Browser")
 ---
 
 ## 12. Useful Links

@@ -245,7 +245,7 @@ samtools index SRR097848_FINAL.bam
 ## 10. Visualization using IGV  
 
 Load indexed BAM files in genome browsers IGV: IGV Software
-
+ ![IGV](IGV.png "IGV")
 
 ---
 

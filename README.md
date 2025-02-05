@@ -114,6 +114,15 @@ samtools sort SRR097848_raw.sam > SRR097848_sort.bam
 
 ## 7. Mark Duplicates  
 
+### Why is it important to mark duplicates in sequencing data?
+- **Removes PCR & Optical Duplicates** – Prevents biases from artificially amplified reads.
+- **Prevents Overestimation of Read Depth** – Avoids false high coverage that misleads analysis.
+- **Improves Variant Calling Accuracy** – Helps distinguish real mutations from PCR artifacts.
+- **Reduces Mapping Bias** – Prevents overrepresentation of repetitive/highly expressed regions.
+
+### Why "Mark" Instead of "Remove"? 
+- Allows tools (e.g., GATK) to ignore duplicates without losing raw data.
+    
 ```
 picard MarkDuplicates -Xmx50g I=SRR097848_sort.bam O=SRR097848_dedup.bam M=SRR097848_dedup.txt
 picard CollectAlignmentSummaryMetrics -Xmx50g INPUT=SRR097848_dedup.bam OUTPUT=SRR097848_aln_metrics.txt REFERENCE_SEQUENCE=/home/bqhs/hg38/genome.fa
@@ -152,7 +161,9 @@ chr11:47,599,786-47,599,865
 
 ## 11. Exercise
 
+
 ### 11.1 DNAseq Data
+
 ```
 mkdir -p breast_cancer
 cd breast_cancer

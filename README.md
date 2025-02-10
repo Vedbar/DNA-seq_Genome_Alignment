@@ -1,4 +1,4 @@
-# Genome_Alignment_Pipeline
+# Genome Alignment Pipeline
 
 This repository provides a step-by-step guide for genome alignment using breast cancer and non-tumor breast cell line datasets. It includes quality control, read alignment, post-processing, and visualization using various bioinformatics tools.
 
